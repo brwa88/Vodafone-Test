@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'chicagoflfregular';
+  src: font-url('chicagoflf-webfont.woff2') format('woff2'),
+       font-url('chicagoflf-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  @font-face {
+    font-family: 'OpenSans';
+    src: url('/assets/OpenSans-Bold.ttf') format('truetype'),
+    url('/assets/OpenSans-BoldItalic.tff') format('truetype'),
+     url('/assets/OpenSans-ExtraBold.tff') format('truetype'),
+     url('/assets/OpenSans-ExtraBoldItalic.tff') format('truetype'),
+     url('/assets/OpenSans-Italic.tff') format('truetype'),  
+     url('/assets/OpenSans-Light.tff') format('truetype'),  
+     url('/assets/OpenSans-LightItalic.tff') format('truetype'), 
+     url('/assets/OpenSans-Regular.tff') format('truetype'),
+     url('/assets/OpenSans-SemiBold.tff') format('truetype'),  
+     url('/assets/OpenSans-SemiBoldItalic.tff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+}
+
+
+#app
+{
+  text-align: inherit; 
+  margin-top: -48px;
+}
+
+
+.footer{
+  font-size: 14px;text-align: center;font-family: 'OpenSans', Fallback, sans-serif;
+  margin-bottom: 10px;
+}
+
+.contactH3
+{
+  text-align: center;font-family: 'OpenSans', Fallback, sans-serif,bold;font-weight: bold;
+}
+
+.smallRedLine
+{
+  background: crimson; width: 40px;height:3px; display:block; margin: auto;
+}
+.filterLetters
+{
+  border: none;background:none;outline: none;
+}
+
+
+.filter{
+
+  text-align: center;font-family: 'OpenSans', Fallback, sans-serif,bold;
+
+}
+
+.cardHead
+{
+  text-align: center;background-color: black;font-family: 'OpenSans', Fallback, sans-serif;
+}
+
+.cardText
+{
+  line-height: 1.8;font-size: 12px;text-align: center;font-family: 'OpenSans', Fallback, sans-serif;
+}
+
+.addButton
+{
+  text-align: right; margin-bottom:70px;margin-right:40px;
+}
